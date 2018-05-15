@@ -1,4 +1,4 @@
-
+#项目地址：https://github.com/JackKing-defier/Baiduwenku
 #@author: JackKing_defier
 
 import requests
@@ -31,7 +31,6 @@ def printPList(plist, path = 'baiduwenku.txt'):
     for str in plist:
         file.write(str)
         file.write('\n')
-    #file.write(str(plist))
     file.close()
 
 def main():
